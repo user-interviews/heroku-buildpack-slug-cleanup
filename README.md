@@ -9,7 +9,7 @@ Do not confuse it with the functionality of [.slugignore](https://devcenter.hero
 Add the buildpack to your application:
 
 ```bash
-heroku buildpacks:add volders/slug-cleanup
+heroku buildpacks:add user-interviews/heroku-buildpack-slug-cleanup.git
 ```
 
 Make sure to keep this buildpack as the last one since you might want to remove things introduced by previous buildpacks.
